@@ -14,7 +14,7 @@ services:
     ports:
       - "${APP_PORT}:1337"
     environment:
-        DATABASE_HOST: db
+        DATABASE_HOST: 192.168.1.91
         DATABASE_PORT: 55432
         DATABASE_NAME: ${DATABASE_NAME}
         DATABASE_USERNAME: ${DATABASE_USER}
